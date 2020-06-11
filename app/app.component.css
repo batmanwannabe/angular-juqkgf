@@ -1,0 +1,20 @@
+p {
+  font-family: Lato;
+}
+
+
+.custom-card {
+  background-color: #F5F5F5;
+  padding: 9px 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > md-card-header {
+  width: 120px;
+  margin: 1px;
+  text-align: center;
+}

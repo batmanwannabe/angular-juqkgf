@@ -1,0 +1,38 @@
+<hello name="{{ name }}"></hello>
+<p>
+	This demo is using Material 2.0.0-beta.10
+</p>
+
+
+<md-card class="custom-card " >
+	<div class="flex-container">
+		<md-card-header>
+			<md-card-subtitle>Subtitle</md-card-subtitle>
+			<md-card-title>Title</md-card-title>
+		</md-card-header>
+		<md-card-header>
+			<md-card-subtitle>Subtitle</md-card-subtitle>
+			<md-card-title>Title</md-card-title>
+		</md-card-header>
+	</div>
+</md-card>
+<br/>
+<md-card>
+	<md-card-header [ngClass]="{'custom-card':true}">
+		<md-card-title>Title</md-card-title>
+		<md-card-subtitle>Subtitle</md-card-subtitle>
+	</md-card-header>
+	<md-card-content>
+		Body text
+	</md-card-content>
+</md-card>
+<br/>
+<md-card [ngStyle]="{'padding':'0px'}">
+	<md-card-header [ngStyle]="{'background-color':'green'}">
+		<md-card-title [ngStyle]="{'font-size':'24px'}">Title</md-card-title>
+		<md-card-subtitle [ngStyle]="{'font-size':'12px', 'color':'white'}">Subtitle</md-card-subtitle>
+	</md-card-header>
+	<md-card-content>
+		Body text
+	</md-card-content>
+</md-card>
